@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# GIS / Raster data (VERY IMPORTANT)
+*.tif
+*.tiff
+*.img
+*.hdf
+*.nc
+
+# Vector data
+*.shp
+*.shx
+*.dbf
+*.prj
+
+# Large datasets
+data/
+outputs/
+
+# Google Earth Engine credentials (if any)
+*.json
+
+# IDE
+.vscode/
+.idea/
